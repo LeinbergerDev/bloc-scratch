@@ -1,0 +1,29 @@
+@media screen and (min-width: 400px) {
+  .media-container, .red {
+    color: red;
+    display: inline;
+  }
+  .blue, .green {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .media-container, .blue {
+    color: blue;
+    display: inline;
+  }
+  .red, .green {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .media-container, .green {
+    color: green;
+    display: inline;
+  }
+  .red, .blue {
+    display: none;
+  }
+}
